@@ -1,5 +1,13 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Social Media Meta Tags Generator",
+    page_icon="🔖",
+    menu_items={
+        'About': "Generate appropriate social media meta tags for different web frameworks"
+    }
+)
+
 def generate_streamlit_code(title, description, url, image_url):
     code = f"""
 st.set_page_config(
